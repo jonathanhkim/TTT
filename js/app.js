@@ -1,7 +1,5 @@
 window.onload = () => {
   boardMaker();
+  turnStart();
+
 }
-
-
-
-
