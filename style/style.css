@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+marquee {
+  width: 50%;
+}
+
+#board {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 50%;
+  margin: auto;
+  width: 50%;
+}
+
+.cell {
+  flex: 0 32%;
+  padding-bottom: 32%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+.cell.bottom {
+  flex: 0 32%;
+  padding-bottom: 33%;
+  margin-bottom: 0%;
+  background-color: white;
+}
+
+.circle {
+  width: 70%;
+  justify-content: center;
+  height: 70%;
+  background-color:  white;
+  border-radius: 50%;
+}
+
+.x {
+  width: 70%;
+  height: 70%;
+  justify-content: center;
+  background-color: black;
+}
+
+.bottom.x {
+  width: 70%;
+  height: 70%;
+  justify-content: center;
+  background-color: black;
+}
+
+#scoreboard {
+  padding-top:10%;
+  margin:auto;
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+}
